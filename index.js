@@ -11,7 +11,7 @@ while(!height){
     height = window.prompt('Enter your height:')
     document.getElementById('height').innerHTML = `Height: ${height}`
 }
-
+ 
 var country = window.prompt('Enter your Country:')
 document.getElementById('country').innerHTML = `Country: ${country}`
 while(!country){
